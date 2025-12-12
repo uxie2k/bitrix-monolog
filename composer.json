@@ -1,0 +1,22 @@
+{
+    "name": "uxie2k/bitrix-monolog",
+    "description": "Professional Monolog adapter for Bitrix with HighloadBlock storage",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Uxie2k",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": ">=8.1",
+        "monolog/monolog": "^3.0",
+        "ext-json": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "Uxie2k\\BitrixMonolog\\": "src/"
+        }
+    }
+}
